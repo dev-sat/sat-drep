@@ -1,0 +1,75 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Scientific-Analytical-Tools",
+    "motivations": "Scientific Analytical Tools LLC (SAT) seeks to become a Decentralized Representative (D-Rep) for Cardano governance, driven by our commitment to innovation, transparency, and community empowerment. With experience across industries such as technology and Security, we bring a data-driven approach to decision-making and governance.\n\nWe believe in blockchain’s power to decentralize control and build sustainable, inclusive systems. As a DRep, SAT will ensure fair representation for all stakeholders, focusing on transparency and scalability. We are committed to fostering open communication, listening to the community, and making well-researched, data-backed decisions that benefit the entire Cardano ecosystem.\n\nBy serving as a D-Rep, SAT will advocate for the long-term growth and success of Cardano while ensuring that voices are heard in shaping its future.",
+    "objectives": "As a D-Rep for the Cardano blockchain, Scientific Analytical Tools LLC believes in the transformative power of decentralized governance and the innovation potential of blockchain technology. Our aim is to contribute to Cardano's mission of creating a more secure, scalable, and decentralized network. We are committed to promoting transparency, fairness, and inclusivity within the Cardano ecosystem.\n\nWe seek to:\n\n1) Enhance Decision-Making: By utilizing data-driven insights and scientific methodologies, we aim to provide informed and unbiased decisions in governance processes, fostering sustainable growth for the Cardano blockchain.\n\n2) Encourage Community Participation\n\n3) Support Innovation\n\n4) Uphold Accountability: We believe in holding ourselves and other actors within the governance system accountable, ensuring transparency and ethical decision-making processes.",
+    "paymentAddress": "addr1q9umk3wdec0ggx69e5497wesw9e9hnya48maq9a0w6atmz5fg0ezmv9y4pfydnf0ywxf69zhdhm6djcudj8whm66xd6slyqed0",
+    "qualifications": "1) Industry Expertise: Experience in managing complex projects across technology and security sectors.\n2) Data-Driven Approach: Focus on evidence-based, analytical decision-making.\n3) Blockchain Knowledge: In-depth understanding of the Cardano ecosystem.\n4) Commitment to Decentralization: Strong belief in inclusive and fair governance.\n5) Collaboration Skills: Proven ability to build consensus and represent diverse stakeholders.\n6) Technical Proficiency: Proficiency in scientific and technical tools, critical for making informed governance decisions.\n7) Problem-Solving and Innovation: Ability to innovate and address complex challenges, aligning with Cardano’s growth.\n",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "The SAT Company Website",
+        "uri": "www.sat.ae"
+      },
+      {
+        "@type": "Link",
+        "label": "LinkedIn",
+        "uri": "https://www.linkedin.com/company/scientific-analytical-tools"
+      }
+    ]
+  }
+}
